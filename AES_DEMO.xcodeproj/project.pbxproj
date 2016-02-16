@@ -15,6 +15,9 @@
 		E2AB223A1C730F5A00A78480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AB22381C730F5A00A78480 /* LaunchScreen.storyboard */; };
 		E2AB22451C730F5A00A78480 /* AES_DEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AB22441C730F5A00A78480 /* AES_DEMOTests.m */; };
 		E2AB22501C730F5A00A78480 /* AES_DEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AB224F1C730F5A00A78480 /* AES_DEMOUITests.m */; };
+		E2AB225F1C730F8700A78480 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AB225E1C730F8700A78480 /* NSData+AES.m */; };
+		E2AB22651C73107300A78480 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AB22641C73107300A78480 /* NSString+MD5.m */; };
+		E2AB22681C7310A700A78480 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AB22671C7310A700A78480 /* SecurityUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		E2AB224B1C730F5A00A78480 /* AES_DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AES_DEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AB224F1C730F5A00A78480 /* AES_DEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES_DEMOUITests.m; sourceTree = "<group>"; };
 		E2AB22511C730F5A00A78480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AB225D1C730F8700A78480 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		E2AB225E1C730F8700A78480 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		E2AB22631C73107300A78480 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E2AB22641C73107300A78480 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		E2AB22661C7310A700A78480 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		E2AB22671C7310A700A78480 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				E2AB222E1C730F5A00A78480 /* AppDelegate.m */,
 				E2AB22301C730F5A00A78480 /* ViewController.h */,
 				E2AB22311C730F5A00A78480 /* ViewController.m */,
+				E2AB225D1C730F8700A78480 /* NSData+AES.h */,
+				E2AB225E1C730F8700A78480 /* NSData+AES.m */,
+				E2AB22631C73107300A78480 /* NSString+MD5.h */,
+				E2AB22641C73107300A78480 /* NSString+MD5.m */,
+				E2AB22661C7310A700A78480 /* SecurityUtil.h */,
+				E2AB22671C7310A700A78480 /* SecurityUtil.m */,
 				E2AB22331C730F5A00A78480 /* Main.storyboard */,
 				E2AB22361C730F5A00A78480 /* Assets.xcassets */,
 				E2AB22381C730F5A00A78480 /* LaunchScreen.storyboard */,
@@ -274,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2AB22321C730F5A00A78480 /* ViewController.m in Sources */,
+				E2AB22681C7310A700A78480 /* SecurityUtil.m in Sources */,
 				E2AB222F1C730F5A00A78480 /* AppDelegate.m in Sources */,
+				E2AB22651C73107300A78480 /* NSString+MD5.m in Sources */,
+				E2AB225F1C730F8700A78480 /* NSData+AES.m in Sources */,
 				E2AB222C1C730F5A00A78480 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
